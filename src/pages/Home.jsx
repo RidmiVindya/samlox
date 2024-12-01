@@ -1,10 +1,22 @@
 import React from 'react';
 import Header from '../components/header';
+// import background from '../assets/background.png';
 import Footer from '../components/footer';
 
 const Home = () => {
+
+  // const blogPosts = [
+  //   {
+  //     date: 'Best',
+  //     category: 'Backdrop',
+  //     admin: 'admin',
+  //     views: 'views',
+  //     comments: 'comments',
+  //     image: background,
+  //   }
+  // ]
   return (
-    <div className="min-h-screen flex flex-col">
+    <div className="min-h-screen  flex flex-col">
       <Header />
       <main className="flex-grow bg-blue-200 text-center flex flex-col items-center justify-center">
         <h1 className="text-4xl font-bold text-white mb-4">Welcome to Samlox Games</h1>
