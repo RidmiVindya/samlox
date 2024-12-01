@@ -1,3 +1,18 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root{
+  --color-button: #FCA311;
+  --color-button: #15f5ba;
+  --color-extra: #1aacac;
+  --color-white: #ffffff;
+  --color-white-modified: #ebe7e7;
+  --color-action: #fa7070;
+
+}
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
