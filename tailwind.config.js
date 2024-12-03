@@ -5,6 +5,7 @@ export default {
     extend: {
       fontFamily: {
         luckiest: ['Luckiest Guy', 'cursive'],
+        magra: ['Magra', 'sans-serif'],
       },
     },
   },
