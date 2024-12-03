@@ -5,12 +5,21 @@ const Header = () => {
     <header className="bg-black text-yellow-500 font-luckiest">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
         <h1 className="text-5xl font-bold">SAMLOX</h1>
-        <nav className="hidden md:flex space-x-8  text-2xl  ">
-          <a href="about" className="hover:text-yellow-300 text-yellow-500">ABOUT US</a>
-          <a href="services" className="hover:text-yellow-300 text-yellow-500">OUR SERVICES</a>
-          <a href="#news" className="hover:text-yellow-300 text-yellow-500">NEWS</a>
-          <a href="portfolio" className="hover:text-yellow-300 text-yellow-500">PORTFOLIO</a>
+        <nav className="hidden md:flex space-x-8 text-2xl">
+            <a href="about" className="hover:text-yellow-300 hover:underline decoration-blue-500 text-yellow-500">
+            ABOUT US
+            </a>
+            <a href="services" className="hover:text-yellow-300 hover:underline decoration-blue-500 text-yellow-500">
+            OUR SERVICES
+            </a>
+            <a href="#news" className="hover:text-yellow-300 hover:underline decoration-blue-500 text-yellow-500">
+            NEWS
+            </a>
+            <a href="portfolio" className="hover:text-yellow-300 hover:underline decoration-blue-500 text-yellow-500">
+            PORTFOLIO
+            </a>
         </nav>
+
         <button className="block md:hidden text-white">
           <svg
             xmlns="http://www.w3.org/2000/svg"

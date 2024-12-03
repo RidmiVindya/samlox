@@ -1,5 +1,6 @@
 import React from 'react';
 import Header from "../components/header";
+import transition from '../transition';
 
 const Portfolio = () => {
     return(
@@ -12,4 +13,4 @@ const Portfolio = () => {
     
 };
 
-export default Portfolio;
+export default transition(Portfolio);

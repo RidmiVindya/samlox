@@ -2,13 +2,14 @@ import React from 'react';
 import Header from '../components/header';
 import background from '../assets/background.png';  // Import the background image
 import Footer from '../components/footer';
+import transition from '../transition';
 
 const Home = () => {
   return (
     <div className="h-screen w-full">
       <Header />
       <div 
-        className="text-center h-[85vh] flex items-center justify-center"
+        className="text-center h-[80vh] flex items-center justify-center"
         style={{ backgroundImage: `url(${background})`, backgroundSize: 'cover', backgroundPosition: 'center' }}
       >
         <div className="backdrop-blur-sm h-[30vh] w-[30vw] flex items-center justify-center text-center rounded-3xl bg-black bg-opacity-70">
@@ -25,4 +26,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default transition(Home);

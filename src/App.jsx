@@ -5,9 +5,12 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import Services from "./pages/services";
+import { AnimatePresence } from "framer-motion";
 
 const App = () => {
     return (
+        <AnimatePresence mode="wait">
+
         <BrowserRouter>
             <Routes>
                 <Route path="/" element={<Home />} />
@@ -17,6 +20,9 @@ const App = () => {
                 <Route path="/services" element={<Services />} />
             </Routes>
         </BrowserRouter>
+            
+        </AnimatePresence>
+        
     );
 };
 
