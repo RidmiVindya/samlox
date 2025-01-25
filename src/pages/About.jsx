@@ -3,11 +3,14 @@ import Header from "../components/header";
 import Footer from "../components/footer";
 import transition from '../transition';
 
+import WhoWeAreSection from "../components/whoWeAre";
+
 const About = () => {
     return (
       <div>
         <Header />
-        <h1>About Us</h1>
+
+        <WhoWeAreSection />
       </div>
     );
   
