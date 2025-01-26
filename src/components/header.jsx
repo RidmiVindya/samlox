@@ -4,7 +4,9 @@ const Header = () => {
   return (
     <header className="bg-black text-yellow-500 font-luckiest">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
-        <h1 className="text-5xl font-bold">SAMLOX</h1>
+      <a href="home" className="hover:text-yellow-300  decoration-blue-500 text-yellow-500 text-5xl font-bold">
+            SAMLOX
+          </a>
         <nav className="hidden md:flex space-x-8 text-2xl">
             <a href="about" className="hover:text-yellow-300 hover:underline decoration-blue-500 text-yellow-500">
             ABOUT US
