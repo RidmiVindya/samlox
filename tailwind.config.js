@@ -7,6 +7,12 @@ export default {
         luckiest: ['Luckiest Guy', 'cursive'],
         magra: ['Magra', 'sans-serif'],
       },
+
+      backgroundImage: {
+        'about-bg': "url('/src/assets/AboutPage/aboutBG.png')",
+      },
+      
+      
     },
   },
   plugins: [],
