@@ -41,6 +41,12 @@
   color: #888;
 }
 
+@keyframes blink {
+  50% {
+    opacity: 0;
+  }
+}
+
 
 
 
