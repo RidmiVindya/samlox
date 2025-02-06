@@ -2,9 +2,9 @@ import React from "react";
 
 const TiltedDiv = () => {
   return (
-    <div className="relative w-full h-screen">
+    <div className="relative w-full ">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-b from-blue-800 to-blue-400"></div>
+      
 
       {/* Tilted Yellow Div */}
       <div
