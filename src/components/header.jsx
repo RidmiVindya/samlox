@@ -1,25 +1,26 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="bg-black text-yellow-500 font-luckiest">
+    <header className="bg-black text-yellow-500 font-luckiest z-50 relative">
       <div className="container mx-auto flex justify-between items-center py-4 px-6">
-      <a href="home" className="hover:text-yellow-300  decoration-blue-500 text-yellow-500 text-5xl font-bold">
-            SAMLOX
-          </a>
+        <Link to="/" className="hover:text-yellow-300  decoration-blue-500 text-yellow-500 text-5xl font-bold">
+          SAMLOX
+        </Link>
         <nav className="hidden md:flex space-x-8 text-2xl">
-            <a href="about" className="hover:text-yellow-300 hover:underline decoration-blue-500 text-yellow-500">
+          <Link to="/about" className="hover:text-yellow-300 hover:underline decoration-blue-500 text-yellow-500">
             ABOUT US
-            </a>
-            <a href="services" className="hover:text-yellow-300 hover:underline decoration-blue-500 text-yellow-500">
+          </Link>
+          <Link to="/services" className="hover:text-yellow-300 hover:underline decoration-blue-500 text-yellow-500">
             OUR SERVICES
-            </a>
-            <a href="#news" className="hover:text-yellow-300 hover:underline decoration-blue-500 text-yellow-500">
-            NEWS
-            </a>
-            <a href="portfolio" className="hover:text-yellow-300 hover:underline decoration-blue-500 text-yellow-500">
+          </Link>
+          <Link to="/" className="hover:text-yellow-300 hover:underline decoration-blue-500 text-yellow-500">
+            OUR TEAM
+          </Link>
+          <Link to="/portfolio" className="hover:text-yellow-300 hover:underline decoration-blue-500 text-yellow-500">
             PORTFOLIO
-            </a>
+          </Link>
         </nav>
 
         <button className="block md:hidden text-white">

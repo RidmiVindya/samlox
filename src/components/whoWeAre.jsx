@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { motion } from "framer-motion";
+// import transition from '../transition';
 import Typewriter from "../Typewriter"; // Import the Typewriter component
 import player1Image from "../assets/AboutPage/player1.png";
 
@@ -48,6 +49,7 @@ const WhoWeAreSection = () => {
           className="relative flex-shrink-0"
           style={{ transform: `translateY(${offsetY}px)` }} // Apply parallax effect
         >
+        
           <img
             src={player1Image}
             alt="Avatar"
